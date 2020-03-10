@@ -1,0 +1,17 @@
+<VirtualHost 127.0.0.1:80>
+        ServerName siberiancmsaaaaa.com
+
+        CustomLog /var/www/siberiancmsaaaaa.com/siberian/var/log/httpd.access_log combined
+        ErrorLog /var/www/siberiancmsaaaaa.com/siberian/var/log/httpd.error_log
+
+        DirectoryIndex index.php
+
+        DocumentRoot /var/www/siberiancmsaaaaa.com/siberian
+
+        <Directory /var/www/siberiancmsaaaaa.com/siberian>
+                Require all granted
+                Options Indexes FollowSymLinks
+                AllowOverride all
+        </Directory>
+
+</VirtualHost>
