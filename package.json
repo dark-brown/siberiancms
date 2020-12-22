@@ -27,7 +27,7 @@
     "ionic": "1.7.14",
     "jshint": "^2.10.2",
     "native-promise-deferred": "^1.0.1",
-    "node-notifier": "^5.4.1",
+    "node-notifier": "^8.0.1",
     "node-sass": "^4.12.0",
     "nopt": "^4.0.1",
     "npm": "^6.13.4",
