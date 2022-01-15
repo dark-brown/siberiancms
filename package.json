@@ -33,7 +33,7 @@
     "npm": "^6.13.4",
     "plugman": "^2.0.0",
     "run-sequence": "^2.2.1",
-    "shelljs": "^0.7.8",
+    "shelljs": "^0.8.5",
     "uglify-es": "^3.3.10",
     "underscore": "1.7.0"
   },
